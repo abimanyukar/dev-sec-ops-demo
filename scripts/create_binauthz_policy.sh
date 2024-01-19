@@ -1,5 +1,5 @@
 #Project variables for project and the GKE environments
-LOCATION=us-central1
+LOCATION=europe-west3
 PROJECT_ID=$(gcloud config list --format 'value(core.project)')
 ATTESTOR_ID=cb-attestor
 GKE_Test_Cluster_Name=test
